@@ -3,7 +3,7 @@
 <!-- ![Slide1](https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Slide1.PNG) -->
 
 ##  Introduction
-This is a power Bi project on sales made from haut supermarket for the year 2023 and 2024. The project is targeted to clean, analyze and draw insights in order to answer critical question and help the stakeholders make data driven decisions.
+This is a power BI project on sales made from haut supermarket for the year 2023 and 2024. The project is targeted to clean, analyze and draw insights in order to answer critical question and help the stakeholders make data driven decisions.
 
 
 ## Data Source:
@@ -87,7 +87,6 @@ The data analysis revealed that;
 •	Africa pull 9% of the total Gross sales and 6% of the total profit from 202,286 units sold from south Africa and Nigeria. This can be visualized when clicking on Africa in the column chart.
 
 
-![ConsolidatedDashboard](https://github.com/Abdur-RasheedAde/Haut_Sales_Analysis/blob/main/Page2Consolidated.PNG)
 
 ## Conclusions and Recommedations
 
