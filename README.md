@@ -1,87 +1,109 @@
-# Haut  Supermarket Sales Report (2013 and 2014)
+# Haut Supermarket Dashboard
 
-![Slide1](https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Slide1.PNG)
+<!-- ![Slide1](https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Slide1.PNG) -->
 
 ##  Introduction
-This is a Power BI project on sales analysis of an hypothetic Supermarket, Haut Super market for 2 consecutive years (2013 and 2014). The project is to clean, analyze and draw insights in order to answer some critical question and help stake holders of Haut make informed decisions.
+This is a power Bi project on sales made from haut supermarket for the year 2023 and 2024. The project is targeted to clean, analyze and draw insights in order to answer critical question and help the stakeholders make data driven decisions.
 
 
 ## Data Source:
-The data used in this project is a modified microsoft dataset known as Financial Samples;  
+The data is a modified dataset known as financial sample
 * Microsoft Financial Sample Data [DownloadMicrosoftData](https://learn.microsoft.com/en-us/power-bi/create-reports/sample-financial-download)
 * Modified Dataset used in this Project [DownloadModifiedDataset](https://docs.google.com/spreadsheets/u/2/d/1xkWC6Jlk_YZECHbpUtoc8AEiPb9jfcld/edit?usp=drive_web&ouid=114068862415751566917&rtpof=true)
 
 ## Problem Statement
-This project is aimed at improving business performance of Haut supermarket and hence, answer the following questions;
-1. What is the monthly trend of Profit?
-2. What is the ratio of profit of the years under review?
-3. What is the profit ratio on quarterly basis?
-4. Which product category is the most and least profitable?
-5. Where does most sales comes from in terms of region?
-6. Does discount has an effect on Sales?
-7. What is the performance of the Africa market relative to other continent?
-8. Which country is most profitable?
+This project is aimed at improving business performance at Haut Super market and hence, answering the following questions
+1. Which country is having the highest profit?
+2. Which product category is the most and least profitable?
+3. What is the profit ratio of the years under review?
+4. Where does most sales come from in term of region?
+5. What is the performance of the Africa market relative to other continents?
 
-## Power BI and Analytics Technical Skills:
+## The following are the power Bi features that were incorporated:
 + Project Planning and Documentation
-+ Data Gathering
-+ Power Query
-+ Data Modelling
-+ Report Design
-+ Data Visualization
 + Data Analysis Expression (DAX)
-+ Page Navigation and Button
-+ Business and Analytics Reporting
-+ Performance Optimization
-+ Deployment and Power BI Service
 + Scalability
-+ Feedback and Continuous Improvement
++ Page navigation and button
++ Data Modeling
++ Data Visualization
++ Report Design
++ Performance Optimization
   
 ## Data Modelling
-To optimize the performance of the data model, a calendar table was created using the DAX function. The data model follows a star schema with one fact table and three dimension tables. The dimension tables have PRIMARY KEYS that connect to the corresponding FOREIGN KEYS in the fact table, forming a one-to-many relationship between each dimension table and the fact table. The diagram below shows the data model.  
-<img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Data%20Modelling.PNG" width=50% height=50%>
+During the process of data visualization and dashboard creation, two tables were created in power Bi named the fact table and the dimension table. There is one fact table and Two-dimension tables
+The fact table and dimension table are comprised of the following columns from which the primary and foreign keys are derived.
+  
+<img src="./slideTwo.jpeg" width=50% height=50%>
 
 ## Report Design and Visualization
-The Report Canvas was designed in Power Point and imported to PowerBI as canvas background. Here is a sample of the slide in Power Point   
-<img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Slide2.PNG" width=50% height=50%>  
-5 pages were created; Home, Consolidated, Stationery, Cosmetics and Electronics. 
-_Home_ page is the landing page while _Consolidated_ has the general report without filter while other pages has filtered reports accroding to their page name.
-On each page, the new card visual is used to hold Total Sales, Gross Sales and Profit, Line Chart is used for the series analysis while a column and bar chart are adopted for the Continental and Country analysis respectively. The last image is the button for page navigation. 
+TThe report canvas was designed in power point and imported into power BI as canvas background, Here is a sample of the design in power point.  
+Five pages were created namely;
+•	the home pages
+•	consolidation page
+•	stationery page
+•	cosmetic page
+•	electronic page
 
-| Visuals             |  Visuals |
+The Home page displays the supermarket name, logo and icons to other pages. From the home page users can navigate through other pages; the stationery page, cosmetic and electronic page.
+
+<img src="./SlideFive.jpeg" width=50% height=50%>  
+
+<!-- | Visuals             |  Visuals |
 :-------------------------:|:-------------------------:
 <img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Card1.PNG" width=90% height=90%>|<img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/button1.PNG" width=40% height=40%> 
-<img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/columnbarchart.PNG" width=60% height=60%> |<img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Linechart.PNG" width=100% height=100%> 
+<img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/columnbarchart.PNG" width=60% height=60%> |<img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Linechart.PNG" width=100% height=100%>  -->
 
-## Analytics abd Insights
+The Electronic Page displays the unit products sold, gross sales and the profit made from the sales of electronics, right at the top of the page
+It also shows the analysis of the sum of sales made by each 
+continent, profits made by all the countries and the profit made per month.
+
+<img src="./SlideThree.jpeg" width=50% height=50%> 
+
+
+The Cosmetic Page displays the unit products sold, gross sale made from cosmetics and, profit made from the sales of cosmetics, right at the top of the page.
+It also shows the analysis of the sum of sales made by each continent, profits made by all the countries and the profit made for each month.
+
+<img src="./SlideFour.jpeg" width=50% height=50%> 
+
+The Stationery Page displays the unit products sold from stationery products, gross sales, and the profit made from the sales of stationery, right at the top of the page
+It also shows the analysis of the sum of sales made by each continent, profits made by all the countries and the profit made per month.
+
+<img src="./SlideONe.jpeg" width=50% height=50%> 
+
+The Consolidation Page has the general report without filter.
+
+<img src="./SlideSix.jpeg" width=50% height=50%> 
+
+
+
+
+## Inference
 The data analysis revealed that;
 
-1. There is a zig-zag trend of profit across the months, however, October records the highest profit of ($3.74M) which is 15% of the total profit and April records the least profit of ($1.4M), 6% of total profit
-2. There exist an increase in profit from 2013 to 2014 with a ration of 4:6
-3. Q4 record the highest profit of ($8.4M) with Q1 with the lowest ($5M), this shows steady increase in profit across the quarter from 1 to 4
-4. The most and least profitable product category are Stationery and Cosmetics which amounts to 44% and 28% of the total profits respectively 
-5. By region continent is intended, therefore Haut supermarket makes the most sales from America region ($98M) with 47% of the total Gross Sales
-6. This is achieved with the help of the slicer; which shows that product with discount result to 96% of the total Gross sales while only 4% don't have discount, with **High** band of discount amounting to 41% of the Gross Sales
-7. Africa pull 9% of the total Gross sales and 6% of the total Profit from the 202,286 Units solds from South Africa and Nigeria. This is can be visualised when clicking on Africa in the column chart 
-8. France is the most profitable Country among the Haut Stores with 20% ($4.9M) of the total profit
+•	France is the most profitable country among all the Haut countries
+•	The most and least profitable product category are stationery and cosmetic which amount to 44% and 28% of the total profit respectively 
+•	There is an increase in the profit from year 2013 to 2014 with a ratio of 4:6
+•	By region continent, the Haut supermarket makes the most sales from America region with $98M of the total gross sales
+•	Africa pull 9% of the total Gross sales and 6% of the total profit from 202,286 units sold from south Africa and Nigeria. This can be visualized when clicking on Africa in the column chart.
+
 
 ![ConsolidatedDashboard](https://github.com/Abdur-RasheedAde/Haut_Sales_Analysis/blob/main/Page2Consolidated.PNG)
 
 ## Conclusions and Recommedations
 
-1. Haut needs to conduct market analysis to increase sales in Q1 and Q2 and offer seasonal products that appeal to customers in the first half of the year
-2. Haut’s management should continue their market strategy that leads to higher profits and better customer satisfaction
-3. The cosmetics product category demands more research and development to boost its sales and profitability
-4. Promotions (discounts) drive most of the sales in Haut stores, making them competitive in the dynamic market. Therefore, other promotional and marketing strategies should be implemented to enhance sales and profit
-5. Products in Africa and China stores should be tailored to the specific needs of these markets through careful research
+•	Haut’s management should continue their market strategy that leads to higher profits and better customer satisfaction
+•	The cosmetics product category demands more research and development to boost its sales and profitability
+•	Promotions (discounts) drive most of the sales in Haut stores, making them competitive in the dynamic market. Therefore, other promotional and marketing strategies should be implemented to enhance sales and profit
+•	Products in Africa and China stores should be tailored to the specific needs of these markets through careful research.
 
-## Deployment to Power BI Service
+
+<!-- ## Deployment to Power BI Service
 This Report is deployed to Power BI service from my Microsoft developer account and publish to the web for everyone to have access to it.
 [HautSupermarketAnalysis](https://app.powerbi.com/groups/me/reports/66ab0071-4b25-41c8-99fd-fd006603aacd/ReportSection6239a8326550e132bae6?ctid=32796be2-60fb-4da2-8d26-06e5938e6e6b&experience=power-bi)  
 
 To Open a developer Microsoft account, kindly check this article [OpenMicrosoftdeveloperaccount](https://techcommunity.microsoft.com/t5/educator-developer-blog/register-for-microsoft-365-and-power-apps-developer-account-with/ba-p/3490280)
 
-Thanks for taking time to go through this report! 🤝
+Thanks for taking time to go through this report! 🤝 -->
 
 
 
