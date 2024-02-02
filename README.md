@@ -1,7 +1,6 @@
 # Haut Supermarket Dashboard
 
 <!-- ![Slide1](https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Slide1.PNG) -->
-
 ##  Introduction
 This is a power Bi project on profit and sales made from haut supermarket. This project is targeted to analyze and draw insights to answer crucial questions in other to help the supermarket make data driven decisions.
 
