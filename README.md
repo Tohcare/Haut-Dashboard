@@ -3,13 +3,7 @@
 <!-- ![Slide1](https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Slide1.PNG) -->
 
 ##  Introduction
-This is a power BI project on sales made from haut supermarket for the year 2023 and 2024. The project is targeted to clean, analyze and draw insights in order to answer critical question and help the stakeholders make data driven decisions.
-
-
-## Data Source:
-The data is a modified dataset known as financial sample
-* Microsoft Financial Sample Data [DownloadMicrosoftData](https://learn.microsoft.com/en-us/power-bi/create-reports/sample-financial-download)
-* Modified Dataset used in this Project [DownloadModifiedDataset](https://docs.google.com/spreadsheets/u/2/d/1xkWC6Jlk_YZECHbpUtoc8AEiPb9jfcld/edit?usp=drive_web&ouid=114068862415751566917&rtpof=true)
+This is a power Bi project on profit and sales made from haut supermarket. This project is targeted to analyze and draw insights to answer crucial questions in other to help the supermarket make data driven decisions.
 
 ## Problem Statement
 This project is aimed at improving business performance at Haut Super market and hence, answering the following questions
@@ -19,7 +13,11 @@ This project is aimed at improving business performance at Haut Super market and
 4. Where does most sales come from in term of region?
 5. What is the performance of the Africa market relative to other continents?
 
-## The following are the power Bi features that were incorporated:
+## Data Source:
+The data is a modified dataset known as financial sample
+* Modified Dataset used in this Project [DownloadModifiedDataset](https://docs.google.com/spreadsheets/u/1/d/106zJMf0DuyiR4uSU0ldLB31Z1U9Q5JWU/htmlview#gid=558144861)
+
+## The following are the power Bi skills demonstrated:
 + Project Planning and Documentation
 + Data Analysis Expression (DAX)
 + Scalability
@@ -70,7 +68,7 @@ It also shows the analysis of the sum of sales made by each continent, profits m
 
 <img src="./SlideONe.jpeg" width=50% height=50%> 
 
-The Consolidation Page has the general report without filter.
+Consolidated has the general report without filter while other pages has filtered reports accroding to their page name. On each page, the new card visual is used to hold Total Sales, Gross Sales and Profit, Line Chart is used for the series analysis while a column and bar chart are adopted for the Continental and Country analysis respectively
 
 <img src="./SlideSix.jpeg" width=50% height=50%> 
 
